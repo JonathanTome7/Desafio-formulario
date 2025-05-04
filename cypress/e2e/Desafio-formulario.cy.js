@@ -19,5 +19,5 @@ describe('Cadastro de usuário', () => {
   
       // Validação de resultado esperado
       cy.contains('Cadastro realizado com sucesso!').should('be.visible') // ajuste conforme o retorno real da página
-    })
+    }) 
   })
