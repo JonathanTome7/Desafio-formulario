@@ -1,30 +1,37 @@
-🚀 Testes Automatizados com Cypress - Formulário de Cadastro
-Este repositório contém testes automatizados desenvolvidos com Cypress para validar o formulário disponível em:
+# 🚀 Testes Automatizados com Cypress - Formulário de Cadastro
 
-🔗 https://jamesonbatista.github.io/projectqatesterweb/cadastro-simples.html
+Este repositório contém testes automatizados desenvolvidos com **Cypress** para validar o formulário disponível em:
 
-O projeto faz parte do desafio da MasterClass Automation Live - Turma 1 , com foco na automação de testes frontend, garantindo a funcionalidade do processo de cadastro.
+🔗 [https://jamesonbatista.github.io/projectqatesterweb/cadastro-simples.html](https://jamesonbatista.github.io/projectqatesterweb/cadastro-simples.html)
 
-📂 Estrutura do Projeto
-#Instale as dependências npm install
+O projeto faz parte do **desafio da MasterClass Automation Live - Turma 1**, com foco na automação de testes frontend, garantindo a funcionalidade do processo de cadastro.
 
-Executar os testes
-npx cypress aberto npx cypress executado
+---
 
-✅ O que está sendo testado
+## 📂 Estrutura do Projeto
+
+#Instale as dependências
+npm install
+
+# Execute os testes
+npx cypress open
+npx cypress run
+
+
+## ✅ O que está sendo testado
 Abertura e carregamento correto da página
 
 Preenchimento de todos os campos do formulário com dados dinâmicos
 
 Seleção de estado e cidade
 
-Aceite os termos e condições
+Aceite dos termos e condições
 
-Envio do formulário
+Submissão do formulário
 
 Validação do comportamento esperado após o envio
 
-💡 Tecnologias utilizadas
+## 💡 Tecnologias utilizadas
 Cypress — Framework de automação E2E
 
 JavaScript (ES6+)
